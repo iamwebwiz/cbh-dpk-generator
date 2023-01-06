@@ -1,7 +1,7 @@
 const { deterministicPartitionKey } = require('./index');
 const { generateHash } = require('./utils');
 
-describe('deterministricPartitionKey', () => {
+describe('deterministricPartitionKey - legacy', () => {
     it('should return the trivial partition key if the event is falsy', () => {
         expect(deterministicPartitionKey()).toBe('0');
         expect(deterministicPartitionKey(undefined)).toBe('0');
