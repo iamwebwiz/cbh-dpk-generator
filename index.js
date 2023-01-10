@@ -26,3 +26,5 @@ exports.deterministicPartitionKey = (event) => {
   }
   return candidate;
 };
+
+console.log(this.deterministicPartitionKey());
