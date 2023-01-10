@@ -1,7 +1,3 @@
-Functions available
-- getShiftsByFacility(facilityId): Shift[] + some Agent metadata
-- generateReport(Shift[]): PDF
-
 # Ticket Breakdown
 ## Ticket 1
 **Allow a facility to generate custom ids for each agents**
